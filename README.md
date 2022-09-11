@@ -1,2 +1,2 @@
 # food_recipes
-Food Recipes using public API
+This repo is using public API from <a href="https://www.edamam.com/">Edamam<a>
