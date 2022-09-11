@@ -1,2 +1,2 @@
 # food_recipes
-This project is using public API from <a href="https://www.edamam.com/">Edamam<a>
+This project is using public API from <a href="https://www.edamam.com/" target="_blank">Edamam<a>
