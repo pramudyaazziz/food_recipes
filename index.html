@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Recipes</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/custom.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div class="col">
+        <h1>Food Recipes</h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+      <div class="col-sm-6">
+        <div class="input-group">
+          <input type="search" class="form-control input-keyword rounded-pill-left"
+            placeholder="Search Recipe by Ingredients or Name" />
+          <button class="btn btn-primary search-button rounded-pill-right" type="button" id="button-addon2">
+            <i class="fa-solid fa-magnifying-glass"></i> <strong class="search">Search</strong>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center foods-content"></div>
+    <!-- Modal Detail Information -->
+    <div class="modal fade" id="informationDetail" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="informationDetailLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+
+          </div>
+          <div class="row">
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
